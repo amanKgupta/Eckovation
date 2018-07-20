@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_trending"
+            android:icon="@drawable/ic_flame"
+            android:title="Trending" />
+        <item
+            android:id="@+id/creategrp"
+            android:icon="@drawable/ic_create_group_button"
+            android:title="Create Group" />
+        <item
+            android:id="@+id/addProfile"
+            android:icon="@drawable/ic_person_add_white_24px"
+            android:title="Highlight" />
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+    </group>
+    <group
+        android:id="@+id/grp_3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_cogwheel_button"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_rate_star_button"
+            android:title="Rate us on app store" />
+    </group>
+    <group
+        android:id="@+id/grp_4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_tnc"
+            android:title="Term and conditions"
+            />
+    </group>
+</menu>
